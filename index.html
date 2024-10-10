@@ -1,70 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portifolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Meu Portfólio</title>
 </head>
+
 <body>
 
-    <!-- Menu Principal -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#sobre-mim">Sobre Mim</a></li>
-                <li><a href="#hobbies-skills">Hobbies e Soft Skills</a></li>
-                <li><a href="#formacoes-cursos">Formações + Cursos</a></li>
-                <li><a href="#experiencia-programacao">Experiência em Programação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Menu Principal -->
+  <header class="menu__cabecalho">
+    <div class="Meu_nome_logo">Marcelo Dev</div>
+    <nav class="menu__navegacao" aria-label="Menu de Navegação Principal">
+      <ul class="menu__itens_navegacao">
+        <li><a href="#sobreMim">Sobre</a></li>
+        <li><a href="#hobbiesSkills">Hobbies e Soft Skills</a></li>
+        <li><a href="#formacoesCursos">Formações + Cursos</a></li>
+        <li><a href="#experienciaProgramacao">Experiência em Programação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
 
-    <!-- Seção Sobre Mim -->
-    <section id="sobre-mim">
-        <h2>Sobre Mim</h2>
-        <p>Insira aqui uma breve descrição sobre você.</p>
+  </header>
+
+
+  <!-- Main - apresentação -->
+
+  <main class="secoes">
+
+
+    <section class="minha_apresentacao">
+      <h1 class="texto_apresentacao">Aqui você encontra a
+        <strong class="solucao">Solução </strong>
+        <p>completa para seu negócio.</p>
+      </h1>
+      <figure>
+        <img class="imagemApi" src="img/solucaoApi.png" alt="imagem api soluções para negocios">
+      </figure>
+
+
     </section>
 
+
+    <section class="nossaMissao">
+      <p class="missao">Desenvolvemos a solução que seu negócio precisa
+        para vender pela internet.
+      <p class="missao">Nossa missão é oferecer
+        as ferramentas e todo o suporte necessário para que
+        a sua empresa tenha sempre os melhores
+        resultados.</p>
+      </p>
+      <img class="imageBussinesUp" src="img/upbussines.png" alt="pessoas subindo em uma escada ">
+
+    </section>
+
+
+    <!-- Seção Sobre Mim -->
+    <section class="sobre_mim" id="sobreMim">
+      <h1 class="texto_sobre_mim">Conheça minha trajetória até aqui.</h1>
+
+      <p>Olá, meu nome é <span class="meuNome">Marcelo Bevilacqua de Andrade</span> e sou apaixonado por tecnologias.
+      </p>
+      <p>Meu primeiro computador foi um TK-3000-2 quando eu tinha 9 anos em 1990, e somente em 1998
+        consegui meu primeiro computador com Windows.
+      </p>
+
+      <figure class="imageTK3000">
+        <img class="imageTk" src="img/tk3000.jpg" alt="imagem de um pc tk3000">
+        <img src="img/Tk3000iie_2.jpg" alt="imagem de um pc tk3000">
+
+      </figure>
+
+      <p class="textoTrajetoria">Somente em 2016 eu realizei um curso na área de TI e, desde então, estou buscando
+        conhecimento em programação e desenvolvimento web.
+      </p>
+    </section>
+
+
     <!-- Seção Hobbies e Soft Skills -->
-    <section id="hobbies-skills">
-        <h2>Hobbies e Soft Skills</h2>
-        <p>Descreva aqui seus hobbies e habilidades interpessoais.</p>
+    <section class="meusHobbies" id="hobbiesSkills">
+
+      <h1 class="hobbies">Hobbies </h1>
+      <p>Comecei a jogar videogame aos 6 anos e nunca mais parei. Claro que tudo tem seu tempo e,
+        ao longo dos anos, eu sempre reservei um tempinho para jogar.
+      </p>
+      <p>Sou da era dos Arcades/Fliperama/Atari e passei por essas etapas de evolução dos games. Ainda guardo alguns
+        desses consoles e jogos
+        como recordação e coleção.
+      </p>
+      <figure class="gamesAntigos">
+        <img class="superNintendo" src="img/supernintendo.jpg" alt="imagem de meu superNintendo">
+        <img class="fitaAtari" src="img/fitas atari.jpg" alt="">
+        <img class="masterSistem" src="img/master system.jpg" alt="">
+      </figure>
+      <p>Sempre gostei de andar de bicicleta e tenho duas das quais mais gosto: uma Monareta e uma Barra Circular.</p>
+      <figure class="minhasBikes">
+        <img class="monareta" src="img/Monark Monareta 1980.jpg" alt="foto de uma bike monareta">
+        <img class="barraCircular" src="img/bicicleta_monark_1984.jpg" alt="foto de uma bike barra circular">
+      </figure>
+
+      <h1 class="softSkills">Soft Skills</h1>
+      <p class="textoSoftSkills">Minhas soft skills desempenham um papel fundamental no meu desenvolvimento profissional.
+         Acredito que uma comunicação clara e eficaz é essencial para a colaboração em equipe,
+          permitindo que ideias e feedback sejam compartilhados abertamente. 
+          Além disso, sou hábil na resolução de problemas, sempre buscando analisar situações 
+          de forma crítica e encontrar soluções criativas.A empatia é uma qualidade que valorizo,
+           pois me permite entender melhor as necessidades e perspectivas dos outros, 
+           fortalecendo o trabalho em equipe. Estou sempre disposto a me adaptar a novas 
+           circunstâncias, o que me ajuda a enfrentar desafios de maneira eficiente. 
+           Por fim, a gestão do tempo é uma habilidade que cultivo, garantindo que minhas 
+           tarefas sejam organizadas e priorizadas adequadamente, contribuindo para a 
+           produtividade e o sucesso dos projetos em que estou envolvido.
+      </p>
     </section>
 
     <!-- Seção Formações + Cursos -->
-    <section id="formacoes-cursos">
-        <h2>Formações + Cursos</h2>
-        <p>Liste aqui suas formações acadêmicas e cursos realizados.</p>
+    <section id="formacoesCursos">
+      <h1 class="texto_formacoes">Formações + Cursos</h1>
+      <p>Em março de 2016, ingressei na Unicesumar no curso de Sistemas para Internet e finalizei em
+        novembro de 2018.
+      </p>
+      <p>Após uma pausa nos estudos, retomei em 2022, estudando Java, Spring Boot, SQL, versionamento com Git e GitHub,
+        e desenvolvendo APIs do início ao fim.
+      </p>
+      <img src="img/spring-boot-java.jpg" alt="imagem java e spring" class="imagem_circulo">
     </section>
 
     <!-- Seção Experiência em Programação -->
-    <section id="experiencia-programacao">
-        <h2>Experiência em Programação</h2>
-        <p>Detalhe aqui sua experiência com programação, projetos, e tecnologias que domina.</p>
+    <section id="experienciaProgramacao">
+      <h2>Experiência em Programação</h2>
+      <p>Através de cursos da desenvolvedora Loiane no YouTube e em seu blog Loiane.training, aprendi
+        o básico e intermediário da linguagem de programação Java.
+      </p>
+      <p>Participei de bootcamps pela plataforma DIO.me, onde aprendi a criar APIs usando Spring Boot.</p>
     </section>
 
     <!-- Formulário de Contato -->
     <section id="contato">
-        <h2>Contato</h2>
-        <form action="#" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br>
+      <h2>Contato</h2>
+      <form action="#" method="POST">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
 
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+        <div>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        </div>
 
-            <button type="submit">Enviar</button>
-        </form>
+        <button type="submit" aria-label="Enviar Formulário de Contato">Enviar</button>
+      </form>
     </section>
+  </main>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2024 Marcelo Bevilacqua de Andrade. Todos os direitos reservados.</p>
-    </footer>
+  <!-- Rodapé -->
+  <footer class="rodape" aria-label="Rodapé com informações de direitos autorais">
+    <p>&copy; 2024 Marcelo Bevilacqua de Andrade. Todos os direitos reservados.</p>
+  </footer>
 
 </body>
+
 </html>

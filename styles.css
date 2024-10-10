@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f2f2f; 
+  color: white; 
+  font-family: 'Times New Roman', serif;
+  font-size: 1rem;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho */
+.menu__cabecalho {
+ 
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.Meu_nome_logo{
+  font-size: 2rem;
+  color:chartreuse;
+}
+
+/* Main - apresentação */
+
+.secoes{
+  display: flex;
+  flex-direction: column;
+  color: greenyellow;
+  width: 100%;
+}
+
+.minha_apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  padding: 5%;
+
+}
+.texto_apresentacao {
+  font-size: 2rem;
+  
+}
+
+.solucao{
+  font-size: 3rem;
+  color: tomato;
+}
+.nossaMissao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.missao{
+  font-size: 2rem;
+}
+.imagemApi {
+  width: 300px;
+  height: 300px;
+}
+
+/* Seção Sobre Mim */
+
+.sobre_mim{
+  background-color: rgb(31, 58, 85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  padding: 5%;
+
+}
+.texto_sobre_mim{
+  font-size: 2.5rem;
+  gap: 5%;
+  padding: 5%;
+
+}
+.meuNome{
+  font-size: 1.8rem;
+  color:rgb(7, 155, 241);
+}
+.imageTk{
+  width: 300px;
+}
+.imageTK3000{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  gap: 30%;
+  
+}
+.textoTrajetoria{
+  padding: 3%;
+}
+
+
+/* Hobbies e Soft Skills, Formações + Cursos, Experiência em Programação */
+
+.meusHobbies{
+  display: flex;
+  background-color: rgb(58, 15, 15);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  padding: 5%;
+}
+.hobbies{
+  padding: 5%;
+  font-size: 3rem;
+}
+.gamesAntigos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+  width: 40%;
+  height: 20%; 
+}
+.superNintendo,.fitaAtari,.masterSistem {
+  padding: 5%;;
+}
+.minhasBikes{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+  width: 40%;
+  height: 20%; 
+  
+}
+.monareta,.barraCircular{
+  display: flex;
+  padding: 5%;
+}
+.softSkills{
+  padding: 5%;
+  font-size: 3rem;
+}
+
+
+.imagem_circulo{
+  width: 300px;
+  height: 200px; 
+  border-radius: 40%; 
+  object-fit: cover; 
+  border: 2px solid #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.menu__itens_navegacao {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.menu__itens_navegacao a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.menu__itens_navegacao a:hover {
+  text-decoration: underline;
+}
+
+/* Separador entre Seções */
+section {
+  padding: 40px 20px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Formulário de Contato */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: lightskyblue;
+}
+
+/* Rodapé */
+.rodape {
+  width: 100%;
+  background-color: darkcyan;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: white;
+}
+
+
