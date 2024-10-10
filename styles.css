@@ -61,6 +61,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 5%;
 }
 .missao{
   font-size: 2rem;
@@ -104,7 +105,7 @@ body {
   
 }
 .textoTrajetoria{
-  padding: 3%;
+  padding: 5%;
 }
 
 
