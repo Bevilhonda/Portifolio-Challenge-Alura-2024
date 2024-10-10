@@ -116,7 +116,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 5%;
 }
 .hobbies{
@@ -150,6 +150,12 @@ body {
 .softSkills{
   padding: 5%;
   font-size: 3rem;
+}
+.textoSoftSkills {
+  text-align: center;
+  font-size: 1.5rem;
+  
+  
 }
 
 
