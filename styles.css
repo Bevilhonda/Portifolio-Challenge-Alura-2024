@@ -18,14 +18,16 @@ body {
  
   background-color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   padding: 15px;
   align-items: center;
+  
 }
 
-.Meu_nome_logo{
-  font-size: 2rem;
-  color:chartreuse;
+.beviltech{
+  display: flex;
+  width: 100px;
+  height: 100px;
 }
 
 /* Main - apresentação */
