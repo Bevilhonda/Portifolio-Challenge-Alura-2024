@@ -167,7 +167,8 @@
       <p>Através de cursos da desenvolvedora Loiane no YouTube e em seu blog Loiane.training, aprendi
         o básico e intermediário da linguagem de programação Java.
       </p>
-      <p>Participei de bootcamps pela plataforma DIO.me, onde aprendi a criar APIs usando Java + Spring Boot e Kotlin + Spring Boot.</p>
+      <p>Participei de bootcamps pela plataforma DIO.me, onde aprendi a criar APIs usando Java + Spring Boot e Kotlin +
+        Spring Boot.</p>
       <p>Na plataforma Alura em parceria com a Oracle realizei um curso de formação Front-End ,
         onde aprendi o básico em Javascript, Html,Css e React.
       </p>
@@ -187,27 +188,52 @@
 
 
     <!-- Formulário de Contato -->
-    <section id="contato">
+
+    <section class="contato" id="contato">
       <h2>Contato</h2>
-      <form action="#" method="POST">
+      <nav class="menuContato">
+        <ul class="menuItensContato">
+          <li>
+            <a href="https://github.com/Bevilhonda" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                alt="GitHub" class="github" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/marcelo-bevilacqua-de-andrade-443097235/" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
+                alt="LinkedIn" class="linkedin" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="formContato" id="contato">
         <div>
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required>
-        </div>
+          <form action="#" method="POST">
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
 
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
 
-        <div>
-          <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-        </div>
+            <div>
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
 
-        <button type="submit" aria-label="Enviar Formulário de Contato">Enviar</button>
-      </form>
+            <button type="submit" aria-label="Enviar Formulário de Contato">Enviar</button>
+          </form>
+
+        </div>
+      </section>
     </section>
+
+
+
   </main>
 
   <!-- Rodapé -->

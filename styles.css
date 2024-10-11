@@ -274,12 +274,37 @@ p {
 }
 
 /* Formulário de Contato */
+.menuItensContato {
+  display: flex; /* Exibe os itens em linha */
+  list-style: none; /* Remove as marcas da lista */
+  padding: 0; /* Remove o preenchimento padrão */
+}
+
+.menuItensContato li {
+  margin: 0 10px; /* Adiciona espaçamento entre os ícones */
+}
+
+.menuItensContato img {
+  width: 30px; /* Define o tamanho dos ícones */
+  height: auto; /* Mantém a proporção */
+}
+
+.contato{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
 form {
+  
   display: flex;
   flex-direction: column;
   gap: 15px;
   max-width: 600px;
   margin: 0 auto;
+  font-size: 1rem;
 }
 
 input, textarea {
