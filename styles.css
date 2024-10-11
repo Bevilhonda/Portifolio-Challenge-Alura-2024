@@ -6,33 +6,50 @@
 
 body {
   background-color: rgb(22, 20, 27);
-  color: white; 
-  font-family: 'Times New Roman', serif;
-  font-size: 1rem;
+  color: white;
   height: 100vh;
   box-sizing: border-box;
 }
 
 /* Cabeçalho */
 .menu__cabecalho {
- 
   background-color: black;
   display: flex;
-  justify-content:space-around;
-  padding: 15px;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 2%;
   align-items: center;
-  
+  gap: 5%;
+
 }
 
-.logoBeviltech{
+.logoBeviltech {
+  width: 8%;
+  height: 8%;
+  margin-right: 15%;
+}
+
+.menu__navegacao {
   display: flex;
-  width: 40%;
-  height: 40%;
+}
+
+.menu__itens_navegacao {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.menu__itens_navegacao a {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
 }
 
 /* Main - apresentação */
 
-.secoes{
+.secoes {
   display: flex;
   flex-direction: column;
   color: greenyellow;
@@ -47,46 +64,51 @@ body {
   padding: 5%;
 
 }
+
 .texto_apresentacao {
   font-size: 2rem;
-  
+
 }
 
-.solucao{
+.solucao {
   font-size: 3rem;
   color: tomato;
 }
+
 .imagemBeviltech {
   width: 20%;
   height: 20%;
 }
-.nossaMissao{
+
+.nossaMissao {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 5%;
 }
-.missao{
+
+.missao {
   font-size: 2rem;
 }
-.figurasBusinesEApi{
+
+.figurasBusinesEApi {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 3%;
-  gap: 15%;
+  gap: 5%;
 }
 
-.figuraApi{
-  width: 300px;
-  height: 300px;
+.figuraApi {
+  width: 30%;
+  height: 30%;
 }
 
 /* Seção Sobre Mim */
 
-.sobreMim{
+.sobreMim {
   background-color: rgb(31, 58, 85);
   display: flex;
   justify-content: center;
@@ -95,43 +117,49 @@ body {
   padding: 5%;
 
 }
-.texto_sobre_mim{
-  font-size: 1.5rem;
-  
+
+.texto_sobre_mim {
+  font-size: 2.5rem;
+
 }
-.texto_sobre_mim1{
+
+.texto_sobre_mim1 {
   font-size: 1.5rem;
   padding: 2%;
 
 }
-.textoTrajetoria{
+
+.textoTrajetoria {
   font-size: 1.5rem;
   padding: 5%;
 }
-.meuNome{
+
+.meuNome {
   font-size: 1.8rem;
-  color:rgb(7, 155, 241);
-}
-.imageTK3000{
-  display: flex;
-  justify-content: center;
-  width: 200px;
-  height: 200px;
-  gap: 30%;
-  
-}
-.imageTk{
-  width: 300px;
+  color: rgb(7, 155, 241);
 }
 
-.textoTrajetoria{
+.imageTK3000 {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  gap: 30%;
+
+}
+
+.imageTk {
+  width: 60%;
+}
+
+.textoTrajetoria {
   padding: 5%;
 }
 
 
 /* Hobbies e Soft Skills */
 
-.meusHobbies{
+.meusHobbies {
   display: flex;
   background-color: rgb(58, 15, 15);
   justify-content: center;
@@ -140,39 +168,46 @@ body {
   font-size: 1.5rem;
   padding: 5%;
 }
-.hobbies{
+
+.hobbies {
   padding: 5%;
   font-size: 3rem;
 }
-.gamesAntigos{
+
+.gamesAntigos {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 5%;
   width: 40%;
-  height: 20%; 
+  height: 20%;
 }
-.superNintendo,.fitaAtari,.masterSistem {
-  padding: 5%;;
+
+.superNintendo, .fitaAtari, .masterSistem {
+  padding: 5%;
+  ;
 }
-.minhasBikes{
+
+.minhasBikes {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 5%;
   width: 40%;
-  height: 20%; 
-  
+  height: 20%;
+
 }
-.monareta,.barraCircular{
+
+.monareta, .barraCircular {
   display: flex;
   padding: 5%;
 }
 
-.softSkills{
+.softSkills {
   padding: 5%;
   font-size: 3rem;
 }
+
 .textoSoftSkills {
   text-align: center;
   font-size: 1.5rem;
@@ -180,56 +215,58 @@ body {
 
 /*  Formações + Cursos, Experiência em Programação */
 
-.secaoCursos{
+.secaoCursos {
   display: flex;
-  background-color: rgb(122, 89, 17);
-  justify-content: center;
+  background-color: rgb(5, 34, 51);
   align-items: center;
   flex-direction: column;
   font-size: 1.5rem;
-  padding: 5%;
 }
-.secaoExperiencia{
+.iconesLinguagens {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 50px;
+}
+
+.iconesLinguagens img {
+  width: 130px;
+  height: auto;
+  margin: 10px;
+  
+}
+
+
+.secaoExperiencia {
   display: flex;
   background-color: rgb(30, 61, 117);
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   font-size: 1.5rem;
-  padding: 5%;
 }
-.imagem_circulo{
-  width: 300px;
-  height: 200px; 
-  border-radius: 40%; 
-  object-fit: cover; 
-  border: 2px solid #fff; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
-
-
-.menu__itens_navegacao {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
+.secaoExperiencia img {
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 50px;
+  width: 150px;
+  height: auto;
+  margin: 10px;
 }
 
-.menu__itens_navegacao a {
-  color: white;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-
-.menu__itens_navegacao a:hover {
-  text-decoration: underline;
+.imagem_circulo {
+  width: 40%;
+  height: 400%;
+  border-radius: 80%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 4% 8% rgba(0, 0, 0, 0.1);
 }
 
 /* Separador entre Seções */
 section {
   padding: 40px 20px;
-  width: 100%; 
-  box-sizing: border-box; 
+  width: 100%;
+  box-sizing: border-box;
 }
 
 p {
@@ -273,5 +310,3 @@ button:hover {
   font-size: 1rem;
   color: white;
 }
-
-
