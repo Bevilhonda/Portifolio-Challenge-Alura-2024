@@ -48,6 +48,7 @@ body {
   font-size: 1.3rem;
   text-decoration: none;
 }
+
 .menu__itens_navegacao a:hover {
   color: greenyellow;
   border-bottom: 2px solid greenyellow;
@@ -208,7 +209,8 @@ body {
   height: auto;
 
 }
-.textoSobreGames{
+
+.textoSobreGames {
   gap: 1rem;
 }
 
@@ -231,7 +233,8 @@ body {
   gap: 1rem;
 
 }
-.textoSobreBikes{
+
+.textoSobreBikes {
   gap: 1rem;
 }
 
@@ -241,7 +244,8 @@ body {
   width: 40rem;
   height: 20rem;
 }
-.secaoSoftSkills{
+
+.secaoSoftSkills {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -387,7 +391,7 @@ button:hover {
 
 @media (max-width: 1024px) and (min-width: 768px) {
 
-  
+
   .menu__cabecalho {
     display: flex;
     flex-direction: column;
@@ -395,8 +399,8 @@ button:hover {
     width: 100%;
     height: auto;
   }
-  
-  .menu__navegacao{
+
+  .menu__navegacao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,7 +408,8 @@ button:hover {
     height: auto;
 
   }
-  .menu__itens_navegacao{
+
+  .menu__itens_navegacao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -447,7 +452,7 @@ button:hover {
 
   }
 
-  
+
   .imagensComputadoresTK3000 {
     display: flex;
     align-items: center;
@@ -467,11 +472,11 @@ button:hover {
 
   }
 
-  .meusHobbies{
+  .meusHobbies {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
   }
 
 
@@ -480,7 +485,8 @@ button:hover {
     align-items: center;
     flex-direction: column-reverse;
   }
-  .minhasBikes{
+
+  .minhasBikes {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -488,15 +494,16 @@ button:hover {
     height: auto;
   }
 
-  .monareta{
+  .monareta {
     width: 100%;
     height: auto;
   }
-  .barraCircular{
+
+  .barraCircular {
     width: 100%;
     height: auto;
   }
-  
+
   .iconesLinguagens img {
     display: flex;
     width: 30%;
@@ -504,7 +511,8 @@ button:hover {
     align-items: center;
     flex-direction: column;
   }
-  .iconesLinguagensExperiencia{
+
+  .iconesLinguagensExperiencia {
     display: flex;
     width: 30%;
     height: auto;
@@ -525,9 +533,10 @@ button:hover {
     align-items: center;
     width: 100%;
     height: auto;
-    
+
   }
-  .menu__navegacao{
+
+  .menu__navegacao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -535,7 +544,8 @@ button:hover {
     height: auto;
 
   }
-  .menu__itens_navegacao{
+
+  .menu__itens_navegacao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -592,31 +602,33 @@ button:hover {
     flex-direction: column-reverse;
 
   }
-  .minhasBikes{
+
+  .minhasBikes {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    width: 100%;
+
+  }
+
+  .monareta {
+    width: 45%;
     height: auto;
   }
 
-  .monareta{
-    width: 100%;
-    height: auto;
-  }
-  .barraCircular{
-    width: 100%;
+  .barraCircular {
+    width: 45%;
     height: auto;
   }
 
-  .iconesLinguagens  {
+  .iconesLinguagens {
     display: flex;
     width: 30%;
     height: auto;
     align-items: center;
     flex-direction: column;
   }
-  .iconesLinguagensExperiencia{
+
+  .iconesLinguagensExperiencia {
     display: flex;
     width: 30%;
     height: auto;
