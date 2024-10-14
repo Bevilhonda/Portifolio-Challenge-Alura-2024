@@ -389,8 +389,28 @@ button:hover {
 
   
   .menu__cabecalho {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu__navegacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+  }
+  .menu__itens_navegacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
   }
 
   .logoBeviltech {
@@ -493,20 +513,35 @@ button:hover {
 
   }
 
-
-
 }
 
-
 /* tela de celular */
-
 
 @media (max-width: 767px) {
 
   .menu__cabecalho {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    width: 100%;
+    height: auto;
+    
+  }
+  .menu__navegacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+  }
+  .menu__itens_navegacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
   }
 
   .logoBeviltech {
