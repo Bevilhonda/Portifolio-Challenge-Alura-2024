@@ -5,6 +5,8 @@
 }
 
 body {
+  min-height: 100vh;
+  overflow-x: hidden;
   background-color: rgb(22, 20, 27);
   color: white;
   height: 100vh;
@@ -17,16 +19,16 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  padding: 2%;
+  padding: 1rem;
   align-items: center;
-  gap: 5%;
+  gap: 1rem;
 
 }
 
 .logoBeviltech {
-  width: 8%;
-  height: 8%;
-  margin-right: 15%;
+  width: 8rem;
+  height: 8rem;
+  margin-right: 10rem;
 }
 
 .menu__navegacao {
@@ -35,7 +37,7 @@ body {
 
 .menu__itens_navegacao {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
   list-style-type: none;
 }
 
@@ -45,6 +47,10 @@ body {
   color: white;
   font-size: 1.3rem;
   text-decoration: none;
+}
+.menu__itens_navegacao a:hover {
+  color: greenyellow;
+  border-bottom: 2px solid greenyellow;
 }
 
 /* Main - apresentação */
@@ -60,8 +66,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5%;
-  padding: 5%;
+  gap: 8rem;
+  padding: 5rem;
 
 }
 
@@ -76,8 +82,8 @@ body {
 }
 
 .imagemBeviltech {
-  width: 20%;
-  height: 20%;
+  width: 20rem;
+  height: auto;
 }
 
 .nossaMissao {
@@ -85,7 +91,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 5%;
+  padding: 5rem;
 }
 
 .missao {
@@ -97,13 +103,19 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 3%;
-  gap: 5%;
+  padding: 3rem;
+  gap: 5rem;
 }
 
 .figuraApi {
-  width: 30%;
-  height: 30%;
+  width: 20rem;
+  height: auto;
+}
+
+.imageBussinesUp {
+  width: 30rem;
+  height: auto;
+
 }
 
 /* Seção Sobre Mim */
@@ -114,7 +126,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5%;
+  padding: 3rem;
 
 }
 
@@ -125,13 +137,13 @@ body {
 
 .texto_sobre_mim1 {
   font-size: 1.5rem;
-  padding: 2%;
+  padding: 2rem;
 
 }
 
 .textoTrajetoria {
   font-size: 1.5rem;
-  padding: 5%;
+  padding: 3rem;
 }
 
 .meuNome {
@@ -139,21 +151,29 @@ body {
   color: rgb(7, 155, 241);
 }
 
-.imageTK3000 {
+.imagensComputadoresTK3000 {
+
   display: flex;
   justify-content: center;
-  width: 30%;
-  height: 30%;
-  gap: 30%;
+  width: 40rem;
+  height: auto;
+  gap: 30px;
 
 }
 
-.imageTk {
-  width: 60%;
+.imagemTk3000PC1 {
+  width: 300px;
+  height: 300px;
 }
+
+.imagemTk3000PC2 {
+  width: 400px;
+  height: 300px;
+}
+
 
 .textoTrajetoria {
-  padding: 5%;
+  padding: 5rem;
 }
 
 
@@ -166,45 +186,69 @@ body {
   align-items: center;
   flex-direction: column;
   font-size: 1.5rem;
-  padding: 5%;
+  padding: 3rem;
 }
 
 .hobbies {
-  padding: 5%;
   font-size: 3rem;
+  gap: 3rem;
 }
 
 .gamesAntigos {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding: 5%;
-  width: 40%;
-  height: 20%;
+  flex-direction: row;
+  padding: 3rem;
+  width: 20rem;
+  height: auto;
+}
+
+.gifAnimadoStreetFighter {
+  width: 25rem;
+  height: auto;
+
+}
+.textoSobreGames{
+  gap: 1rem;
 }
 
 .superNintendo, .fitaAtari, .masterSistem {
-  padding: 5%;
-  ;
+  padding: 1rem;
+  width: 18rem;
+  height: auto;
+
+
 }
 
 .minhasBikes {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding: 5%;
-  width: 40%;
-  height: 20%;
+  align-items: center;
+  flex-direction: row;
+  padding: 5rem;
+  width: 100%;
+  height: 20rem;
+  gap: 1rem;
 
+}
+.textoSobreBikes{
+  gap: 1rem;
 }
 
 .monareta, .barraCircular {
   display: flex;
-  padding: 5%;
+  padding: 3rem;
+  width: 40rem;
+  height: 20rem;
+}
+.secaoSoftSkills{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .softSkills {
-  padding: 5%;
+  padding: 3rem;
   font-size: 3rem;
 }
 
@@ -222,18 +266,19 @@ body {
   flex-direction: column;
   font-size: 1.5rem;
 }
+
 .iconesLinguagens {
-  display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
-  gap: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: auto;
 }
 
 .iconesLinguagens img {
-  width: 130px;
+  width: 10rem;
   height: auto;
-  margin: 10px;
-  
+  margin: 1rem;
+
 }
 
 
@@ -244,23 +289,16 @@ body {
   flex-direction: column;
   font-size: 1.5rem;
 }
+
 .secaoExperiencia img {
-  justify-content: center; 
-  flex-wrap: wrap; 
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
-  width: 150px;
+  width: 10rem;
   height: auto;
-  margin: 10px;
+  margin: 1rem;
 }
 
-.imagem_circulo {
-  width: 40%;
-  height: 400%;
-  border-radius: 80%;
-  object-fit: cover;
-  border: 2px solid #fff;
-  box-shadow: 0 4% 8% rgba(0, 0, 0, 0.1);
-}
 
 /* Separador entre Seções */
 section {
@@ -270,26 +308,26 @@ section {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 /* Formulário de Contato */
 .menuItensContato {
-  display: flex; /* Exibe os itens em linha */
-  list-style: none; /* Remove as marcas da lista */
-  padding: 0; /* Remove o preenchimento padrão */
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 .menuItensContato li {
-  margin: 0 10px; /* Adiciona espaçamento entre os ícones */
+  margin: 0 10px;
 }
 
 .menuItensContato img {
-  width: 30px; /* Define o tamanho dos ícones */
-  height: auto; /* Mantém a proporção */
+  width: 30px;
+  height: auto;
 }
 
-.contato{
+.contato {
   background-color: gray;
   display: flex;
   flex-direction: column;
@@ -298,7 +336,7 @@ p {
 }
 
 form {
-  
+
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -308,16 +346,25 @@ form {
 }
 
 input, textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: greenyellow;
 }
 
 button {
   padding: 10px 20px;
   background-color: greenyellow;
   border: none;
+  border-radius: 3rem;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -334,4 +381,220 @@ button:hover {
   padding: 20px;
   font-size: 1rem;
   color: white;
+}
+
+/* tela de tablet*/
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+  
+  .menu__cabecalho {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoBeviltech {
+    display: flex;
+    width: 10rem;
+    height: auto;
+  }
+
+  .minha_apresentacao {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+
+  .texto_apresentacao {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .solucao {
+    font-size: 2rem;
+  }
+
+  .imagemBeviltech {
+    width: 20rem;
+    height: auto;
+  }
+
+  .figurasBusinesEApi {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+  }
+
+  
+  .imagensComputadoresTK3000 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+  }
+
+  .imagemTk3000PC1 {
+    width: 45%;
+    height: auto;
+
+  }
+
+  .imagemTk3000PC2 {
+    width: 50%;
+    height: auto;
+
+  }
+
+  .meusHobbies{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+
+  .gamesAntigos {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .minhasBikes{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+
+  .monareta{
+    width: 100%;
+    height: auto;
+  }
+  .barraCircular{
+    width: 100%;
+    height: auto;
+  }
+  
+  .iconesLinguagens img {
+    display: flex;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+  .iconesLinguagensExperiencia{
+    display: flex;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+
+
+}
+
+
+/* tela de celular */
+
+
+@media (max-width: 767px) {
+
+  .menu__cabecalho {
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .logoBeviltech {
+    width: 20%;
+    height: auto;
+  }
+
+  .minha_apresentacao {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .texto_apresentacao {
+    font-size: 1.2rem;
+  }
+
+  .solucao {
+    font-size: 1.5rem;
+  }
+
+  .imagemBeviltech {
+    width: 100%;
+    height: auto;
+  }
+
+  .figurasBusinesEApi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .meusHobbies {
+    flex-direction: column;
+    width: 100%;
+    height: auto
+  }
+
+  .imagensComputadoresTK3000 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+  }
+
+  .gamesAntigos {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+  }
+  .minhasBikes{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+
+  .monareta{
+    width: 100%;
+    height: auto;
+  }
+  .barraCircular{
+    width: 100%;
+    height: auto;
+  }
+
+  .iconesLinguagens  {
+    display: flex;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+  .iconesLinguagensExperiencia{
+    display: flex;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .contato {
+    font-size: 1.5rem;
+  }
+
+  form {
+    font-size: 0.9rem;
+  }
 }
