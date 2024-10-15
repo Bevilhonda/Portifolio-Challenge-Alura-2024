@@ -249,7 +249,7 @@ body {
   flex-direction: column;
 }
 
-.softSkills {
+.tituloSoftSkills {
   padding: 3rem;
   font-size: 3rem;
 }
@@ -260,6 +260,11 @@ body {
 }
 
 /*  Formações + Cursos, Experiência em Programação */
+
+.tituloFormacoes {
+  padding: 3rem;
+  font-size: 3rem;
+}
 
 .secaoCursos {
   display: flex;
@@ -283,6 +288,79 @@ body {
 
 }
 
+/* seção de certificados */
+
+.tituloCertificados {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.secaoMeusCertificados {
+  display: flex;
+  background-color: rgb(5, 34, 51);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+
+
+.meusCertificados {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.meusCertificados img {
+  width: 15rem;
+  height: 15rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  align-items: center;
+}
+
+.legendaCertificado {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+
+/* essa parte cuida da visualização de certificados na tela ao clicar abre uma janela */
+
+.janelaSpan {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.janelaSpan img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.fechar {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* seção de experiência em programação */
+
 
 .secaoExperiencia {
   display: flex;
@@ -290,6 +368,13 @@ body {
   align-items: center;
   flex-direction: column;
   font-size: 1.5rem;
+  padding: 3rem;
+}
+
+.tituloExperiencia {
+  padding: 3rem;
+  font-size: 3rem;
+
 }
 
 .secaoExperiencia img {
@@ -314,27 +399,34 @@ p {
 }
 
 /* Formulário de Contato */
-.menuItensContato {
+
+.secaoContato {
+  background-color: gray;
   display: flex;
-  list-style: none;
-  padding: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+}
+.tituloContato{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+
 }
 
-.menuItensContato li {
-  margin: 0 10px;
+.menuItensContato {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  list-style: none;
+
 }
 
 .menuItensContato img {
-  width: 30px;
+  width: 25%;
   height: auto;
-}
-
-.contato {
-  background-color: gray;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 2.5rem;
+  
 }
 
 form {
@@ -355,6 +447,7 @@ input, textarea {
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
+  resize: none;
 }
 
 input:focus, textarea:focus {
@@ -376,13 +469,23 @@ button:hover {
 }
 
 /* Rodapé */
+
 .rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: darkcyan;
   text-align: center;
-  padding: 20px;
+  padding: 3%;
   font-size: 1rem;
   color: white;
+  flex-direction: column;
+}
+
+.meuNomeCopyRigth {
+  text-align: center;
+  margin: 0;
 }
 
 /* tela de tablet*/
