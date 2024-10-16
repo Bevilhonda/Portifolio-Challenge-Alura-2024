@@ -386,6 +386,75 @@ body {
   margin: 1rem;
 }
 
+/* Projetos Realizados  */
+
+.tituloSecaoProjetos {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.projetosRealizados {
+  background-color: rgb(5, 34, 51);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.meusProjetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12rem;
+  gap: 0.5rem;
+  
+}
+
+.projeto img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.vercel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin-top: 0.3rem;
+  display: block;
+  
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  display: block;
+  
+  
+}
+
 
 /* Separador entre Seções */
 section {
@@ -400,33 +469,50 @@ p {
 
 /* Formulário de Contato */
 
+.tituloContato {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
 .secaoContato {
   background-color: gray;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
-  
-}
-.tituloContato{
-  font-size: 3rem;
-  margin-bottom: 1rem;
-
+  padding: 2rem;
 }
 
 .menuItensContato {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   list-style: none;
+  gap: 3rem;
+  padding: 0;
+  margin: 0;
+}
 
+.menuItensContato li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menuItensContato img {
-  width: 25%;
+  width: 5rem; 
   height: auto;
-  
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.github{
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+/* esse aqui serve para incluir um efeito ao passar o mouse em cima do icone */
+.menuItensContato img:hover {
+  transform: scale(1.1);
 }
 
 form {
@@ -498,7 +584,7 @@ button:hover {
   transform: rotate(-45deg);
   margin-bottom: -7px;
   margin-left: -4px;
-  
+
 }
 
 .botaoTopoPagina:hover {
