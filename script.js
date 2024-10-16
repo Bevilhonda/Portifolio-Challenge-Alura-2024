@@ -42,6 +42,8 @@ const imagemJanelaSpan = document.getElementById('imagemJanelaSpan');
 
 const fechar = document.querySelector('.fechar');
 
+const botaoTopoPagina = document.getElementById('btnTop');
+
 
 
 // essa constante recebe todas as imagens de certificados
@@ -71,5 +73,20 @@ janelaSpan.addEventListener('click', (e) => {
     janelaSpan.style.display = 'none';
   }
 });
+
+// essa função mostra o botão quando rolar para baixo
+window.onscroll = function() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      botaoTopoPagina.style.display = "block";
+  } else {
+      botaoTopoPagina.style.display = "none";
+  }
+};
+
+// essa função volta ao topo ao clicar no botão
+botaoTopoPagina.onclick = function() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+};
 
 
