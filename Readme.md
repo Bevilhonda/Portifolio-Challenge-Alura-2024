@@ -15,13 +15,14 @@
 
    <p> 💎 O objetivo principal é colocar em prática algumas das principais ferramentas para a construção de paginas web: <strong> HTML, CSS, JAVASCRIPT</strong> através de aulas dinamicas e intuitivas com exemplos práticos e exercicios.</p>
 
-<h3>🛑 Não sendo exigidos nenhum Pré-Requisitos para aprender essas tecnologias.</h3>
+<h3 align="center">🛑 Não sendo exigidos nenhum Pré-Requisitos para aprender essas tecnologias.</h3>
 
 <p>Através da inscrição para a seleção de candidatos no site  <a href = "https://www.oracle.com/br/education/oracle-next-education/"></a> , fui selecionado e presenteado com uma bolsa para este curso oferecido entre uma parceria da Oracle Next Educadion e Alura, O ONE é um programa de educação e empregabilidade com objetivo social de capacitar pessoas em tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras.</p>
 
-<br> <img src="img/Oracle.png" alt="imagem ONE oracle" align="center"> <br>
+<br> <img src="img/Oracle.png" alt="imagem ONE oracle"> <br>
 
-<p>Ao longo de 30 dias e reservando pelo menos 4 horas por dia foi possível concluir a primeira etapa que foi dividida entre os cursos de 📚  HTML  📚 CSS 📚 JS ,  e assim aprender  <strong> Lógica de programação</strong>.Após essa etapa cheguei na terceira fase em que o desafio é criar um portifólio conforme orientações passadas nas aulas. </p>
+<p>Ao longo de 30 dias e reservando pelo menos 4 horas por dia foi possível concluir a primeira etapa que foi dividida entre os cursos de 📚  HTML  📚 CSS 📚 JS ,  e assim aprender  <strong> Lógica de programação</strong>.Após essa etapa cheguei na <strong>terceira fase </strong>.chamdada <strong>Praticando Front End : Desafio
+Portifólio </strong>., em que o desafio é criar um portifólio conforme orientações passadas nas aulas. </p>
 
 <p>E para esta jornada tivemos uma equipe de peso ministrando as aulas, que foram eles :  </p>
 
