@@ -19,7 +19,7 @@
 
 <p>Através da inscrição para a seleção de candidatos no site  <a href = "https://www.oracle.com/br/education/oracle-next-education/"></a> , fui selecionado e presenteado com uma bolsa para este curso oferecido entre uma parceria da Oracle Next Educadion e Alura, O ONE é um programa de educação e empregabilidade com objetivo social de capacitar pessoas em tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras.</p>
 
-<br> <img src="./assets/Oracle.png" alt="imagem ONE oracle"> <br>
+<br> <img src="img/Oracle.png" alt="imagem ONE oracle"> <br>
 
 <p>Ao longo de 30 dias e reservando pelo menos 4 horas por dia foi possível concluir a primeira etapa que foi dividida entre os cursos de 📚  HTML  📚 CSS 📚 JS ,  e assim aprender  <strong> Lógica de programação</strong>.Após essa etapa cheguei na terceira fase em que o desafio é criar um portifólio conforme orientações passadas nas aulas. </p>
 
