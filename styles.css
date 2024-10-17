@@ -29,6 +29,8 @@ body {
   width: 8rem;
   height: 8rem;
   margin-right: 10rem;
+  border: 1px solid rgb(39, 7, 7);
+  border-radius: 1rem;
 }
 
 .menu__navegacao {
@@ -85,6 +87,8 @@ body {
 .imagemBeviltech {
   width: 20rem;
   height: auto;
+  border: 1px solid rgb(61, 2, 2);
+  border-radius: 1rem;
 }
 
 .nossaMissao {
@@ -111,11 +115,15 @@ body {
 .figuraApi {
   width: 20rem;
   height: auto;
+  border: 1px solid rgb(5, 245, 17);
+  border-radius: 1rem;
 }
 
 .imageBussinesUp {
   width: 30rem;
   height: auto;
+  border: 1px solid rgb(25, 240, 6);
+  border-radius: 1rem;
 
 }
 
@@ -159,17 +167,22 @@ body {
   width: 40rem;
   height: auto;
   gap: 30px;
+  
 
 }
 
 .imagemTk3000PC1 {
   width: 300px;
   height: 300px;
+  border: 1px solid rgb(41, 26, 77);
+  border-radius: 1rem;
 }
 
 .imagemTk3000PC2 {
   width: 400px;
   height: 300px;
+  border: 1px solid rgb(41, 26, 77);
+  border-radius: 1rem;
 }
 
 
@@ -202,12 +215,13 @@ body {
   padding: 3rem;
   width: 20rem;
   height: auto;
+  gap: 1rem;
 }
 
 .gifAnimadoStreetFighter {
   width: 25rem;
   height: auto;
-
+  
 }
 
 .textoSobreGames {
@@ -218,6 +232,9 @@ body {
   padding: 1rem;
   width: 18rem;
   height: auto;
+  border: 1px solid rgb(70, 16, 16);
+  border-radius: 1rem;
+  
 
 
 }
@@ -230,6 +247,7 @@ body {
   padding: 3rem;
   width: 20rem;
   height: auto;
+  gap: 1rem;
 }
 
 .textoSobreBikes {
@@ -241,6 +259,9 @@ body {
   padding: 3rem;
   width: 40rem;
   height: 20rem;
+  border: 1px solid rgb(70, 16, 16);
+  border-radius: 1rem;
+  
 }
 
 .secaoSoftSkills {
@@ -322,6 +343,8 @@ body {
   cursor: pointer;
   transition: transform 0.3s ease;
   align-items: center;
+  border: 1px solid rgb(5, 250, 18);
+  border-radius: 1rem;
 }
 
 .legendaCertificado {
@@ -431,6 +454,8 @@ body {
   width: 10rem;
   height: 10rem;
   cursor: pointer;
+  
+  border-radius: 1rem;
 }
 
 .vercel {
