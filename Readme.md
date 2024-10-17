@@ -21,8 +21,7 @@
 
 <br> <img src="img/Oracle.png" alt="imagem ONE oracle"> <br>
 
-<p>Ao longo de 30 dias e reservando pelo menos 4 horas por dia foi possível concluir a primeira etapa que foi dividida entre os cursos de 📚  HTML  📚 CSS 📚 JS ,  e assim aprender  <strong> Lógica de programação</strong>.Após essa etapa cheguei na <strong>terceira fase </strong>.chamdada <strong>Praticando Front End : Desafio
-Portifólio </strong>., em que o desafio é criar um portifólio conforme orientações passadas nas aulas. </p>
+<p>Ao longo de 30 dias e reservando pelo menos 4 horas por dia foi possível concluir a primeira etapa que foi dividida entre os cursos de 📚  HTML  📚 CSS 📚 JS ,  e assim aprender  <strong> Lógica de programação</strong>.Após essa etapa cheguei na <strong>terceira fase </strong> chamada <strong>Praticando Front End : Desafio Portifólio </strong>, em que o desafio é criar um portifólio conforme orientações passadas nas aulas. </p>
 
 <p>E para esta jornada tivemos uma equipe de peso ministrando as aulas, que foram eles :  </p>
 
