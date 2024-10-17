@@ -1,7 +1,7 @@
 ## Hi, I'm Marcelo Bevilacqua De Andrade 💻
 
 
-<h1> Projeto Challenge Portifólio  - Oracle ONE + Alura </h1>
+<h1 align="center"> Projeto Challenge Portifólio  - Oracle ONE + Alura </h1>
 
 <p align="center"> 📜  Projeto Meu Portifólio </a> 📜 </P>
 
@@ -19,7 +19,7 @@
 
 <p>Através da inscrição para a seleção de candidatos no site  <a href = "https://www.oracle.com/br/education/oracle-next-education/"></a> , fui selecionado e presenteado com uma bolsa para este curso oferecido entre uma parceria da Oracle Next Educadion e Alura, O ONE é um programa de educação e empregabilidade com objetivo social de capacitar pessoas em tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras.</p>
 
-<br> <img src="img/Oracle.png" alt="imagem ONE oracle"> <br>
+<br> <img src="img/Oracle.png" alt="imagem ONE oracle" align="center"> <br>
 
 <p>Ao longo de 30 dias e reservando pelo menos 4 horas por dia foi possível concluir a primeira etapa que foi dividida entre os cursos de 📚  HTML  📚 CSS 📚 JS ,  e assim aprender  <strong> Lógica de programação</strong>.Após essa etapa cheguei na terceira fase em que o desafio é criar um portifólio conforme orientações passadas nas aulas. </p>
 
@@ -31,15 +31,15 @@
 
 <br> <br>
 
-<h1> ⚡ 🛑 O Desafio</h1>
+<h1 align="center"> ⚡ 🛑 O Desafio</h1>
 
 <br> <br>
 
-<h2>Praticando Front End :Challenge Portifólio</h2>
+<h2 align="center">Praticando Front End :Challenge Portifólio</h2>
 
 <p>Ao final do curso de Front End foi disposto um desafio chamado de Challenge, e criar um Portifólio.O objetivo é mostrar minhas experiências em programação , meus hobbies e soft skills, serviços que realizo , enfim contar um pouco sobre trajetoria de vida e trabalho.</p>
 
-<h3>🔺Tecnologias usadas 🎯</h3>
+<h3 align="center">🔺Tecnologias usadas 🎯</h3>
 
 <p>
 🔹 <strong>Html</strong><br>
@@ -56,7 +56,7 @@
 
 </p>
 
-<h3>🔺Link do Portifólio</h3><br>
+<h3 align="center">🔺Link do Portifólio</h3><br>
 
 <h1 align="center"> 
 
