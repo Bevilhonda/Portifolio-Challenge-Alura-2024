@@ -58,7 +58,7 @@
 
 <h3>🔺Link do Portifólio</h3><br>
 
-<a href = "https://portifolio-challenge-alura-2024.vercel.app/"> </a>
+✅  https://portifolio-challenge-alura-2024.vercel.app/<br> 
 
 
 
