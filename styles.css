@@ -844,7 +844,7 @@ button:hover {
     align-items: center;
     flex-direction: column-reverse;
     width: 90%;
-    max-width: 400px;
+    max-width: 100px;
     height: auto;
     object-fit: contain;
     margin: 0 auto;
