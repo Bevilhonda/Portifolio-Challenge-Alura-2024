@@ -837,6 +837,7 @@ button:hover {
     height: auto;
     object-fit: contain;
     margin: 0 auto;
+    padding: 0 10px;
   }
 
   .meusHobbies {
