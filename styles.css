@@ -830,14 +830,7 @@ button:hover {
   }
 
   .figurasBusinesEApi {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 90%;
-    max-width: 400px;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto;
-    padding: 0 10px;
+    display: none;
   }
 
   .meusHobbies {
