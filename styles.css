@@ -806,8 +806,7 @@ button:hover {
   }
 
   .logoBeviltech {
-    width: 20%;
-    height: auto;
+    display: none;
   }
 
   .minha_apresentacao {
@@ -827,11 +826,17 @@ button:hover {
   .imagemBeviltech {
     width: 100%;
     height: auto;
+    object-fit: contain;
   }
 
   .figurasBusinesEApi {
     display: flex;
     flex-direction: column-reverse;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
   }
 
   .meusHobbies {
@@ -844,6 +849,11 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
 
   }
 
@@ -858,6 +868,11 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
 
   }
 
